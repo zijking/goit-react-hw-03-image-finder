@@ -4,7 +4,7 @@ import s from './Searchbar.module.css';
 
 class SearchBar extends Component {
   state = {
-    search: 'tree',
+    search: '',
   };
 
   //  { page } = this.props;
